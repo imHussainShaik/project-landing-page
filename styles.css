@@ -1,7 +1,16 @@
+body{
+    margin: 0px;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
-    background-color: #1f2937;
+    margin: 48px;
 }
 .logo{
     color: #f9faf8;
@@ -12,4 +21,26 @@
     display: flex;
     color: #e5e7eb;
     font-size: 18px;
+    gap: 10px;
+}
+.main-content{
+    background-color: #1f2937;
+    display: flex;
+    margin: 48px;
+}   
+.dis1{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+.dis2{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+button{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 6px;
+    padding: 5px 30px;
+
 }
